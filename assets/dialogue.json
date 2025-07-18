@@ -1,0 +1,126 @@
+{
+  "scenes": {
+    "intro": [
+      {
+        "speaker": "Glenn Quagmire",
+        "text": "I spend like 75$ on cat toys and what does she play with?",
+        "auto_time": 3.75,
+        "camera_target": "Glenn Quagmire"
+      },
+      {
+        "speaker": "Glenn Quagmire",
+        "text": "A SHOELACE!",
+        "auto_time": 2.0,
+        "camera_target": "Glenn Quagmire"
+      },
+      {
+        "speaker": "Peter Griffin",
+        "text": ". . .",
+        "auto_time": 1.75,
+        "camera_target": "Peter Griffin"
+      },
+      {
+        "speaker": "Joe Swanson",
+        "text": "That's craaazy",
+        "auto_time": 2.25,
+        "camera_target": "Joe Swanson"
+      },
+      {
+        "speaker": "Cleveland Brown",
+        "text": ". . .",
+        "auto_time": 1.75,
+        "camera_target": "Cleveland Brown"
+      },
+      {
+        "speaker": "Glenn Quagmire",
+        "text": "Joe, you know what's crazy, is that low-taper fade, like meme, ...",
+        "camera_target": "Glenn Quagmire",
+        "choices": [
+          {
+            "text": "*leave*",
+            "player_text": "*joe got up and left*",
+            "player_text_auto_time": 2.25,
+            "next_scene": "leave",
+            "triggers": [
+              {
+                "type": "move_to",
+                "target": "Joe Swanson",
+                "params": { "x": 50.0, "y": 0.0, "z": 25.0, "speed": 5.0 }
+              }
+            ]
+          },
+          {
+            "text": "*stay*",
+            "player_text": "*joe defied the meme and decided to stay*",
+            "player_text_auto_time": 2.75,
+            "next_scene": "stay"
+          }
+        ]
+      }
+    ],
+    "leave": [
+      {
+        "speaker": "Cleveland Brown",
+        "text": ". . .",
+        "auto_time": 1.75,
+        "camera_target": "Cleveland Brown"
+      },
+      {
+        "speaker": "Glenn Quagmire",
+        "text": "dude it is so like..",
+        "auto_time": 2.5,
+        "camera_target": "Glenn Quagmire"
+      },
+      {
+        "speaker": "Peter Griffin",
+        "text": "AOOUUAAUAUAGHHHH",
+        "auto_time": 1.75,
+        "camera_target": "Peter Griffin"
+      },
+      {
+        "speaker": "Cleveland Brown",
+        "text": ". . .",
+        "auto_time": 1.75,
+        "camera_target": "Cleveland Brown"
+      },
+      {
+        "speaker": "Glenn Quagmire",
+        "text": "MASSIVE dude",
+        "auto_time": 2.25,
+        "camera_target": "Glenn Quagmire"
+      }
+    ],
+    "stay": [
+      {
+        "speaker": "Glenn Quagmire",
+        "text": "Joe you're supposed to get up and leave",
+        "auto_time": 2.35,
+        "camera_target": "Glenn Quagmire"
+      },
+      {
+        "speaker": "Cleveland Brown",
+        "text": ". . .",
+        "auto_time": 1.75,
+        "camera_target": "Cleveland Brown"
+      },
+      {
+        "speaker": "Joe Swanson",
+        "text": "what?",
+        "auto_time": 1.5,
+        "camera_target": "Joe Swanson"
+      },
+      {
+        "speaker": "Peter Griffin",
+        "text": "AOOUUAAUAUAGHHHH",
+        "auto_time": 1.75,
+        "camera_target": "Peter Griffin"
+      },
+      {
+        "speaker": "Cleveland Brown",
+        "text": ". . .",
+        "auto_time": 1.75,
+        "camera_target": "Cleveland Brown"
+      }
+    ]
+  }
+}
