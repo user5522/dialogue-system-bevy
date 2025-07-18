@@ -8,7 +8,7 @@ on:
 
 env:
   CARGO_TERM_COLOR: always
-  binary: b3d
+  binary: dialogue-system-bevy
 
 jobs:
   build-windows:
